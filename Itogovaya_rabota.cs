@@ -20,3 +20,13 @@ internal class  Program
             }
             array[i] = str; 
         }
+        PrintArray(array);
+        Console.Write("--");
+        Select(array);
+
+        //Вывести массив (процедура PrintArray)
+        void PrintArray(string[] arr)
+          {
+            for (int i = 0; i < arr.Length; i++)
+            Console.Write("[" + array[i] + "]");    
+          }
