@@ -30,3 +30,14 @@ internal class  Program
             for (int i = 0; i < arr.Length; i++)
             Console.Write("[" + array[i] + "]");    
           }
+     //Отбор слов содержащих 3 или менее  символов (процедура Select)
+        void Select(string[] arr)
+        {
+            for (int i = 0; i < array.Length; i++)
+            {
+              if (array[i].Length <= 3)
+              Console.Write("[" + array[i] + "]");
+            }
+        }
+    }
+}      
